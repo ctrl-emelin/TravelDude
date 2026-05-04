@@ -69,12 +69,12 @@ User Input (CLI / Jupyter)
 
 ## Open APIs Used
 
-| API | Purpose | Free Tier |
-|-----|---------|-----------|
-| [OpenTripMap](https://opentripmap.io/docs) | POIs, attraction categories, ratings | 1,000 req/day |
-| [Rest Countries](https://restcountries.com/) | Country metadata (language, currency, region) | Unlimited |
-| [Open-Meteo](https://open-meteo.com/) | Climate/weather data per destination | Unlimited |
-| [Unsplash](https://unsplash.com/developers) | Destination photos | 50 req/hr |
+| API | Purpose |
+|-----|---------|
+| [OpenTripMap](https://opentripmap.io/docs) | POIs, attraction categories, ratings | 
+| [Rest Countries](https://restcountries.com/) | Country metadata (language, currency, region) | 
+| [Open-Meteo](https://open-meteo.com/) | Climate/weather data per destination | 
+| [Unsplash](https://unsplash.com/developers) | Destination photos | 
 
 > All APIs are **free and require no credit card**.  
 > The LLM (llama3 via Ollama) and RAG embeddings (`all-MiniLM-L6-v2`) both run **fully offline**.
