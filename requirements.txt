@@ -1,0 +1,28 @@
+# Core recommendation engine
+pandas==2.2.2
+scikit-learn==1.5.0
+numpy==1.26.4
+
+# API integrations + env
+requests==2.32.3
+python-dotenv==1.0.1
+
+# CLI interface
+rich==13.7.1
+
+# ── RAG layer ─────────────────────────────────────────────────────────────────
+# Local embeddings — free, no API key, runs fully offline
+# First run auto-downloads the ~90MB all-MiniLM-L6-v2 model
+sentence-transformers==3.0.1
+
+# ── Jupyter support ───────────────────────────────────────────────────────────
+jupyterlab==4.2.0
+ipykernel==6.29.4
+
+# NOTE: Ollama itself is NOT a Python package.
+# Install it separately:
+#   Mac:   brew install ollama
+#   Linux: curl -fsSL https://ollama.com/install.sh | sh
+# Then:
+#   ollama pull llama3
+#   ollama serve
